@@ -8,12 +8,21 @@
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
 	color: #CC00AA;
 }
+.project {
+     margin-left: 0px;
+}
 
+img .thumbnail{
+     width: 100px;
+     height: 60px;
+}
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
      padding: 20px;
+     background-color: #edfffc;
+     margin-left: 100px;
+     text-align: left;
 }
 
 .jumbotron {
@@ -31,4 +40,6 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;
+
+
 }
